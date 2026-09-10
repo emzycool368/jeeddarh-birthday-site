@@ -1,0 +1,32 @@
+.closing {
+  width: 100%;
+  max-width: 420px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px 24px;
+  margin: 0 auto;
+  background: radial-gradient(circle at 50% 20%, #F4C6D3 0%, #FDF6F0 60%);
+}
+
+.closing-emoji {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.closing-title {
+  font-family: 'Caveat', cursive;
+  font-size: 2.8rem;
+  color: #E8B4B8;
+  text-shadow: 1px 1px 0px #FFFFFF;
+}
+
+.closing-text {
+  margin-top: 16px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #7A5C61;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeeddarh's Cards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="card.css" />
+  <link rel="stylesheet" href="deck.css" />
+</head>
+<body class="deck-body">
+
+  <div class="deck-wrapper">
+
+    <div class="card-stage" id="cardStage">
+
+      <!-- Card 1 -->
+      <div class="card" data-index="0">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open on</p>
+            <p class="card-title">your birthday morning</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">Happy birthday, Jeeddarh 🎂💛 It's honestly wild to think we only got this close this year — neither of us saw it coming, but I'm so glad it happened 🥹 You mean way more to me than I probably say out loud, and I don't take that for granted. I know you'll read this and say "it's not that deep" 🙄😂 — but just let me have this one today. You are loved. More than you'll ever admit. Happy birthday, Jeeddarh 🎉💕</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card" data-index="1">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open when</p>
+            <p class="card-title">you're stressed about school</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">Hey Jeeddarh 📚 I know school's been a lot lately, and it's easy to let the stress take over. But remember — we don't live life based on feelings. Feelings come and go, but you keep showing up anyway, and that's what actually matters. You're capable of way more than this stress is telling you right now. Breathe, keep going, you've got this 💪</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" data-index="2">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open when</p>
+            <p class="card-title">you miss me</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">Oh look, you actually tapped this one 👀 Don't lie, I know you miss me — you just have main character energy about denying it 😂 But honestly? I miss you more than I probably show. You've become someone I genuinely can't imagine not having around, and I'm grateful for that every single day. 🤍</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card" data-index="3">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open when</p>
+            <p class="card-title">you miss home</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">Homesickness hits different sometimes, huh? 🏡 I know being away isn't always easy, and some days it feels heavier than others. But home isn't just a place — it's people too, and you've got people who care about you no matter how far you are. Hang in there, you're doing better than you think. 🤍</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card" data-index="4">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open when</p>
+            <p class="card-title">you need a laugh</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">Okay this one's just for vibes 😂 Remember that time we argued over "it's not that deep"? Yeah. Iconic. Anyway — go do something that makes you laugh right now. You deserve to smile today, no reason needed. 🎉</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card" data-index="5">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open when</p>
+            <p class="card-title">you forget how loved you are</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">Hey. Stop whatever you're doing for a second. 🫶 You are loved — especially by me. I see you, I appreciate you, and I'm genuinely better for having you in my life. If today's one of those days you forget that, let this be your reminder. You matter, more than you know.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="card" data-index="6">
+        <div class="card-inner">
+          <div class="card-face card-front">
+            <p class="card-label">open when</p>
+            <p class="card-title">you want to see something pretty</p>
+            <p class="tap-hint">tap to open</p>
+          </div>
+          <div class="card-face card-back">
+            <p class="card-message">You. That's it, that's the card. 😌✨<br /><br />(also — go check your gallery, I left something for you there too)</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Progress dots -->
+    <div class="dots" id="dots">
+      <span class="dot active" data-dot="0"></span>
+      <span class="dot" data-dot="1"></span>
+      <span class="dot" data-dot="2"></span>
+      <span class="dot" data-dot="3"></span>
+      <span class="dot" data-dot="4"></span>
+      <span class="dot" data-dot="5"></span>
+      <span class="dot" data-dot="6"></span>
+    </div>
+
+    <p class="swipe-hint">← swipe →</p>
+
+  </div>
+
+  <script src="deck.js"></script>
+</body>
+</html>

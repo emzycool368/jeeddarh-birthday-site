@@ -1,0 +1,78 @@
+/* ---- Reset ---- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FDF6F0;
+  color: #7A5C61;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+/* ---- Landing screen ---- */
+.landing {
+  width: 100%;
+  max-width: 420px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 32px 24px;
+  background: radial-gradient(circle at 50% 20%, #F4C6D3 0%, #FDF6F0 60%);
+}
+
+.eyebrow {
+  font-size: 0.95rem;
+  color: #B98A90;
+  margin-bottom: 4px;
+}
+
+.name {
+  font-family: 'Caveat', cursive;
+  font-size: 4.2rem;
+  line-height: 1;
+  color: #E8B4B8;
+  text-shadow: 1px 1px 0px #FFFFFF;
+}
+
+.subtext {
+  margin-top: 18px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7A5C61;
+}
+
+.begin-btn {
+  margin-top: 48px;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 999px;
+  background-color: #E8B4B8;
+  color: #FFFFFF;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(232, 180, 184, 0.4);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.begin-btn:active {
+  transform: scale(0.96);
+  box-shadow: 0 3px 8px rgba(232, 180, 184, 0.4);
+}
+
+.begin-btn:focus-visible {
+  outline: 2px solid #7A5C61;
+  outline-offset: 3px;
+}
