@@ -1,6 +1,5 @@
 const cards = document.querySelectorAll('.card');
 const dots = document.querySelectorAll('.dot');
-const continueLink = document.getElementById('continueLink');
 let currentIndex = 0;
 let startX = 0;
 let endX = 0;
@@ -17,12 +16,6 @@ function showCard(index) {
   dots.forEach((dot, i) => {
     dot.classList.toggle('active', i === index);
   });
-
-  if (index === cards.length - 1) {
-    continueLink.classList.add('visible');
-  } else {
-    continueLink.classList.remove('visible');
-  }
 
   currentIndex = index;
 }

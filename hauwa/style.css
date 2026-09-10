@@ -4,16 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --color-base: #FBF3FA;
-  --color-soft: #E3B8E0;
-  --color-deep: #B98AC9;
-  --color-text: #5C3D5E;
-}
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: var(--color-base);
+  background-color: #FDF6F0;
   color: #7A5C61;
   min-height: 100vh;
   display: flex;
@@ -33,15 +27,7 @@ body {
   justify-content: center;
   text-align: center;
   padding: 32px 24px;
-  background-image: 
-  repeating-linear-gradient(
-    45deg,
-    rgba(92, 61, 94, 0.06) 0px,
-    rgba(92, 61, 94, 0.06) 1px,
-    transparent 1px,
-    transparent 8px
-  ),
-  radial-gradient(circle at 50% 20%, var(--color-soft) 0%, var(--color-base) 60%);
+  background: radial-gradient(circle at 50% 20%, #F4C6D3 0%, #FDF6F0 60%);
 }
 
 .eyebrow {
@@ -54,10 +40,8 @@ body {
   font-family: 'Caveat', cursive;
   font-size: 4.2rem;
   line-height: 1;
-  color: var(--color-deep);
+  color: #E8B4B8;
   text-shadow: 1px 1px 0px #FFFFFF;
-  animation: fadeInUp 0.8s ease-out;
-  animation: fadeInUp 0.8s ease-out 0.3s backwards;
 }
 
 .subtext {
@@ -65,8 +49,6 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: #7A5C61;
-  animation: fadeInUp 0.8s ease-out;
-  animation: fadeInUp 0.8s ease-out 0.3s backwards;
 }
 
 .begin-btn {
@@ -74,7 +56,7 @@ body {
   padding: 14px 36px;
   border: none;
   border-radius: 999px;
-  background-color: var(--color-deep);
+  background-color: #E8B4B8;
   color: #FFFFFF;
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
@@ -83,8 +65,6 @@ body {
   cursor: pointer;
   box-shadow: 0 6px 14px rgba(232, 180, 184, 0.4);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
-  display: inline-block;
-  animation: fadeInUp 0.8s ease-out 0.3s backwards;
 }
 
 .begin-btn:active {
@@ -95,14 +75,4 @@ body {
 .begin-btn:focus-visible {
   outline: 2px solid #7A5C61;
   outline-offset: 3px;
-}
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(15px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
